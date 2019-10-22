@@ -43,8 +43,7 @@ Steps:
     closeness = sna.closeness(user_hashtag_graph)      
     for node in user_hashtag_graph:  
       print("Node: {} has Closeness Centrality {}: ".format(node, closeness[node]))
-    
-  
+      
 Enjoy! 
   
   
