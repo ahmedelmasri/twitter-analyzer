@@ -31,6 +31,7 @@ Steps:
   ex:
   ----
   import networkanalysis as sna  
+  
   user_hashtag_graph = sna.construct_user_hashtag_network(user_hashtag_list)
 
 4- Now you can analyze the graph's centrality as follows:
@@ -38,7 +39,9 @@ Steps:
   ex:
   ----
   closeness = sna.closeness(user_hashtag_graph)
+  
   for node in user_hashtag_graph:
+  
     print("Node: {} has Closeness Centrality {}: ".format(node, closeness[node]))
     
   
