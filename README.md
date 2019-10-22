@@ -16,7 +16,7 @@ Steps:
   ex:
   ----
   
-    list_of_relevant_tweets = twt.extract_relevant_tweets("data/twitter-data.txt", ["climate", "weather"]) 
+    list_of_relevant_tweets = twt.extract_relevant_tweets("twitter-data-sample.txt", ["climate", "weather"]) 
 
 2- Now we can construct lists of interests
   * user-hashtags 
