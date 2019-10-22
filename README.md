@@ -26,14 +26,17 @@ Steps:
   ex:
   user_hashtag_list = twt.construct_user_sentiment_list(list_of_relevant_tweets)
 
-3- Now you can construct a network of user_hashtags as follow
+3- Now you can construct a network of user_hashtags as follow:
 
-  import networkanalysis as sna
-  
+  ex:
+  ----
+  import networkanalysis as sna  
   user_hashtag_graph = sna.construct_user_hashtag_network(user_hashtag_list)
 
-4- Now you can analyze the graph's centrality as follows
+4- Now you can analyze the graph's centrality as follows:
 
+  ex:
+  ----
   closeness = sna.closeness(user_hashtag_graph)
   for node in user_hashtag_graph:
     print("Node: {} has Closeness Centrality {}: ".format(node, closeness[node]))
