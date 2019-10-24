@@ -1,4 +1,4 @@
-# twitter-analyzer
+# TwitterAnalyzer
 A python library specialized in analyzing tweet datasets using NLP and Network Analysis
 
 The end-user can immediatly clone the repo and start working with the package
